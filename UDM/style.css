@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+
+/* 
+
+Navbar starts
+
+*/
+
+nav{
+    height: 60px;
+    background-color: #0B0331;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#logo{
+    width: 20%;
+    text-shadow: 1px 1px 1px white;
+}
+
+#logo:hover{
+    text-shadow: 2px 2px 2px white;
+    cursor: pointer;
+}
+
+.pagechange{
+    display: flex;
+    gap: 40px;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20%;
+    
+}
+
+.pagechange div:hover{
+    text-shadow: 2px 2px 2px white;
+    font-weight: 200;
+    transform: scale();
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contact{
+    display: flex;
+    width: 20%;
+    max-height: 40px;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-left: 10%;
+    align-items: center;
+    
+}
+
+.contact button{
+    border-radius: 5px;
+    border-radius:8px ;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    transform: scale();
+    transition: 0.2s;
+    box-shadow: 3px 3px 0px 0px rgb(136, 137, 143);
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 500px;
+    
+}
+
+#loginbtn{
+    padding: 7px;
+    gap: 0px;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(35, 1, 52, 1);
+}
+
+#Getintchbtn{
+    width: 100px;
+    padding: 7px;
+    gap: 0px;
+    background: rgba(5, 0, 56, 1);
+    border: 2px solid rgba(249, 250, 255, 1);
+    color: white;
+}
+
+/*
+
+Navbar over 
+
+*/
+
+
+
+
+.CWB{
+    height: 100px;
+    font-size: xxx-large;
+    background-color: #0B0331;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+
+}
+
+#C{
+    border: 2px solid rgba(249, 250, 255, 1);
+    background-color: white;
+    color: #0B0331;
+    padding: 0 3px;
+    font-weight: bolder;
+}
+
+
+
+
+/* 
+
+Carousel Starts
+
+*/
+
+.Carouselbox{
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    font-size: xxx-large;
+}
+
+#leftcarouselbox{
+    background-color: #0B0331;
+    color: white;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border-radius: 50px 0 0 50px;
+}
+
+#rightcarouselbox{
+    background-color: #0B0331;
+    color: white;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border-radius: 0 50px 50px 0;
+}
+
+#midcarouselbox{
+    /* background-color: rgb(192, 220, 245); */
+    color: grey;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79.7%;
+    border: 5px solid #0B0331;
+    flex-direction: column;
+}
+
+#slidedots{
+    
+    border: 0px;
+}
+
+/*
+
+Carousel Over
+
+*/
+
+
+
+
+

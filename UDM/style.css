@@ -124,7 +124,7 @@ Navbar over
 
 }
 
-#C{
+.C{
     border: 2px solid rgba(249, 250, 255, 1);
     background-color: white;
     color: #0B0331;
@@ -179,12 +179,13 @@ Carousel Starts
     align-items: center;
     width: 79.7%;
     border: 5px solid #0B0331;
-    flex-direction: column;
+    
 }
 
 #slidedots{
-    
     border: 0px;
+    align-self: flex-end;
+    justify-self: center;
 }
 
 /*
@@ -194,6 +195,18 @@ Carousel Over
 */
 
 
+/* 
 
+About Us starts
 
+*/
 
+#Abtushead{
+    background-color: white;
+    color: #0B0331;
+}
+
+#A{
+    background-color: #0B0331;
+    color: white;
+}
